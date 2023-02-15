@@ -214,18 +214,13 @@ body {
    
  }
  .last-icons svg:hover
-   #facebook{
-      fill:#D5966C;
+   #facebook,.last-icons svg:hover
+   #insta, .last-icons svg:hover
+   #twitter {
+      fill:#D5966C; 
    }
 
-   .last-icons svg:hover
-   #insta {
-      fill:#D5966C;
-   }
-   .last-icons svg:hover
-   #twitter{
-      fill:#D5966C;
-   }
+   
 
 
    /* tablet version */
