@@ -230,11 +230,13 @@ body {
             
             background-repeat: no-repeat;
             background-position: top -103px right -311px;
+           
          }
 
          
             .older-women{
                display: none;
+            
             }
             .older-women-tablet{
                display: block;
