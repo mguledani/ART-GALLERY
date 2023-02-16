@@ -8,7 +8,6 @@
     border:none;
     text-decoration: none; 
     
-
 }
 
 
@@ -88,7 +87,7 @@ body {
     
  }
 
- .first-photo-in-section{
+ .first-photo-in-div{
 
    margin-top:120px;
    margin-left:16px;
@@ -117,7 +116,7 @@ body {
     margin-left:16px;
 
  }
- .second-section  {
+ .second-div  {
    
     width:343px;
     
@@ -243,13 +242,10 @@ body {
             }
          
 
-   }
+   
    .modern-art-gallery{
 
-    position: absolute;
-    top:235px;
-    right:258px;
-    width: 339px;
+    width: 281px;
    }
 
    .older-women-tablet{
@@ -259,10 +255,50 @@ body {
 
    }
    .visit-us{
-      position: absolute;
-      top:365px;
-      right:258px;
+
       width: 339px;
+   
 
 
    }
+   
+   .all{
+      position:absolute;
+      top:145px;
+      left:369px;
+
+      
+   }
+
+   .first-photo-in-div{
+      display:none;
+      width:398px;
+      height: 400px;
+   }
+
+
+   .third-photo{
+
+      display:none;
+   }
+
+   .second-photo-in-div{
+      width:398px;
+      height: 400px;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
