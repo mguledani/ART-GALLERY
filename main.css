@@ -243,39 +243,26 @@ body {
             }
          
 
+   }
+   .modern-art-gallery{
+
+    position: absolute;
+    top:235px;
+    right:258px;
+    width: 339px;
+   }
+
+   .older-women-tablet{
+      width:437px;
+      flex-direction: flex-start;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   }
+   .visit-us{
+      position: absolute;
+      top:365px;
+      right:258px;
+      width: 339px;
 
 
    }
