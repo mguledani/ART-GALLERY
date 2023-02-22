@@ -75,9 +75,8 @@ body {
 .button-div {
     display: flex;
     margin-top:32px;
-    margin-left:16px;
+    /* margin-left:16px; */
     cursor:pointer;
-
 }
  .isris-divi {
     display: flex;
@@ -106,20 +105,18 @@ body {
     line-height: 45px;
     font-family: 'Big Shoulders Display';
     margin-top:25px;
-    margin-left:16px;
-    
+    /* margin-left:16px; */
  }
 
- .creative-process { 
-    color:#444444 ;
+ .creative-process {
+    color:#444444;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     margin-top:21px;
-    margin-left:16px;
-
+    /* margin-left:16px; */
  }
  .second-div  {
    
@@ -169,8 +166,8 @@ body {
         font-size: 50px;
         line-height: 45px;
         color:white;
-        padding-top:48px;
-        margin-left:24px;
+        
+       
         
  }
  .influence {    
@@ -179,7 +176,6 @@ body {
    font-weight: 300;
    font-size: 18px;
    line-height: 28px;
-   margin-left:24px;
   margin-top:24px;
    color:#FFFFFF;
    width:295px;
@@ -201,9 +197,6 @@ body {
  .footer-photo{
     margin-left:32px;
     margin-top:48px;
-    
-
-
  }
 
  .address{
@@ -214,22 +207,21 @@ body {
     line-height: 26px;
     color:white;
     margin-top:38px;
-    margin-left:32px;
-    margin-right:32px;
-    
-
-
+ 
  }
 
  .last-icons{
 
-   display: flex;
-   gap: 20px;
-   margin-top:38px;
-   margin-left:32px;
-   cursor: pointer;
-   
- }
+display: flex;
+
+gap: 20px;
+
+margin-top:38px;
+
+
+
+cursor: pointer;
+}
  .last-icons svg:hover
    #facebook,.last-icons svg:hover
    #insta, .last-icons svg:hover
@@ -311,20 +303,23 @@ body {
       display: flex;
       width:398px;
       height: 400px;
-      padding-right: 40px;
+      
       
       
 
    }
    .first-div{
 
-      padding-top:120px;
-      display:flex;
-      flex-direction: row-reverse;
-      gap: 129px;
+margin-top: 120px;
 
-     
-   }
+display:flex;
+
+flex-direction: row-reverse;
+
+gap: 68px;
+
+justify-content: center;
+}
 
 
 .second-div{
@@ -339,42 +334,34 @@ body {
  
 .main-chairs-div{
    
-   display:flex;
-   margin-top:11px;
-   margin-left:40px;
+display:flex;
+justify-content: center;
 }
 .main-div{
    flex-direction:column;
    display:flex;
    margin-top:11px;
-   margin-right: 40px;
    
-   
-
 }
 .day-creative{
   
-   width: 223px;
+width: 233px;
 }
 .your-day{
-   width: 282px;
+   width: 176px;
 }
 
 
 
 
-.creative-process{
-width: 223px;
-height: 140px;
-
-}
+.creative-process{/* width: 223px; *//* height: 140px; */}
 
   
 .photo-of-chairs2{
    width:398px;
    display: flex;
    height:720px;
-
+   margin-top: 11px;
 }
 .photo-of-chairs{
    display: none;
@@ -387,16 +374,16 @@ height: 140px;
  
 .photo-of-peoples2{
    display:flex;
-   width: 318px;
-   height: 313px; 
-   margin-left:11px;da
- 
-
+   width: 280px;
+   height: 313px;
+   margin-left:11px;
 }
 .last-div{
    height: 385px;
    margin-top:11px;
    margin-left:11px;
+   padding-left: 24px;
+   width: 280px;
 }
 
 
@@ -405,18 +392,38 @@ height: 140px;
 .influence {  
    width:223px;
 }
+ 
 
 
 
 
+
+.footer-div{
+   width: 100%;
+   height:216px;
+   display: flex;
+   justify-content: space-between;
+   padding-right:40px;
+   
+   
 }
 
 
+   
+   
 
 
 
+.photo-div{
 
+gap: 66px;
+align-items:flex-start;
+display: flex;
+}
+.address{
 
+   width:281px;
 
+}
 
-
+   }
